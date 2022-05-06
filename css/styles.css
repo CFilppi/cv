@@ -1,0 +1,128 @@
+body {
+  background-color: #222831;
+  color: silver;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: #79BAC1;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #79BAC1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #79BAC1;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: silver;
+  border-width: 8px;
+  width: 5%;
+  margin: 100px auto;
+}
+a{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #222831;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #E26A2C;
+}
+p{
+    line-height: 2;
+}
+
+.top-container {
+  background-color: #222831;
+  position: relative;
+  margin: 100px 0;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto;
+  text-align: left;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.profile-pic{
+border-radius: 60px 60px;
+}
+
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.cook-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  bottom: 50px;
+}
+.btn {
+  background: #f58b00;
+  background-image: linear-gradient(top, #f58b00, #f58b00);
+  background-image: linear-gradient(to bottom, #f58b00, #f58b00);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #1486de;
+  background-image: linear-gradient(top, #1486de, #1486de);
+  background-image: linear-gradient(to bottom, #1486de, #1486de);
+  text-decoration: none;
+}
+.copyright{
+color: #EAF6F6;
+font-weight: bold;
+font-size: 0.75rem;
+padding: 40px 0;
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
